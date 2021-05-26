@@ -1,8 +1,7 @@
 import vue from 'vue'
 import VueRouter from 'vue-router'
-import vueRouter from 'vue-router'
 
-vue.use(vueRouter)
+vue.use(VueRouter)
 import Inicio from './componentes/Inicio.vue'
 import Formulario from './componentes/Formulario/index.vue'
 import Http from './componentes/Http.vue'
